@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Talk2Enfy",
+    "slug": "Talk2Enfy",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
