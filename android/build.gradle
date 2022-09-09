@@ -1,5 +1,5 @@
 import org.apache.tools.ant.taskdefs.condition.Os
-
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"  
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
@@ -29,6 +29,7 @@ buildscript {
         classpath('com.android.tools.build:gradle:7.1.1')
         classpath('com.facebook.react:react-native-gradle-plugin')
         classpath('de.undercouch:gradle-download-task:5.0.1')
+        implementation project(':react-native-vector-icons')  
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
